@@ -2,7 +2,7 @@ NUMBRIX
 ---------
 (2008-12-05 22:08:36 -0500 (Fri, 05 Dec 2008))
 
-NUMBRIX is a numberix solver written in Common Lisp for CAP4621 (Artifical Intelligence, Fall 2008) at the University of Florida.
+NUMBRIX is a numbrix solver written in Common Lisp for CAP4621 (Artifical Intelligence, Fall 2008) at the University of Florida.
 My partner (Brian Ethier) and I were both new to Common Lisp, so the code is non-idiomatic, decidedly un-functional, and downright messy.
 Enter at your own risk. :-)
 
