@@ -1,0 +1,37 @@
+NUMBRIX
+---------
+(2008-12-05 22:08:36 -0500 (Fri, 05 Dec 2008))
+
+NUMBRIX is a numberix solver written in Common Lisp for CAP4621 (Artifical Intelligence, Fall 2008) at the University of Florida.
+My partner (Brian Ethier) and I were both new to Common Lisp, so the code is non-idiomatic, decidedly un-functional, and downright messy.
+Enter at your own risk. :-)
+
+REQUIREMENTS:
+   * Common Lisp
+   * clisp (if you'd like to compile it down to bytecode):
+         http://clisp.cons.org/
+
+INSTALLATION/USAGE:
+
+To run in clisp:
+   1) Open up the clisp interpreter (`clisp`)
+   2) Type:
+      (compile-file "numbrix.lisp")
+   3) Type: 
+      (load "numbrix.fas")
+   4) The main program is called 'numbrix'. To run it, type:
+      (numbrix)
+   5) To use the board from Dankel's project specification, you can either enter
+      "oct20.board" or no value at all when prompted for a filename.
+      
+      IMPORTANT: The tournament boards are named #.board, where # is the number specified
+      in the tournament dataset document.
+
+   5) For actual gameplay instructions, type 'h' at the move prompt in the game.
+
+   For automatic (computer) play: press 'a' at the move prompt.
+
+   NOTE: When the board is complete and the solution is incorrect, the board state is
+         reset (set back to the original configuration).
+
+Sample boards can be found in boards/.         
