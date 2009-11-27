@@ -1,3 +1,4 @@
+; ever heard of a logarithm? ;-)
 (defun num-digits (n pow num)
   (if (>= n (expt 10 pow))
       (num-digits n (1+ pow) (1+ num))
