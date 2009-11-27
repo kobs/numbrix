@@ -4,7 +4,9 @@ NUMBRIX
 
 NUMBRIX is a numbrix solver written in Common Lisp for CAP4621 (Artifical Intelligence, Fall 2008) at the University of Florida.
 My partner (Brian Ethier) and I were both new to Common Lisp, so the code is non-idiomatic, decidedly un-functional, and downright messy.
-Enter at your own risk. :-) I'm sure there's a lot of code that'll make experienced lispers writhe in pain.
+Enter at your own risk. :-)
+
+The majority of it was written within a span of two days, so I'm sure there's a lot of code that'll make experienced lispers writhe in pain. 
 
 REQUIREMENTS:
    * Common Lisp
